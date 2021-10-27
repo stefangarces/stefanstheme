@@ -1,7 +1,5 @@
 <?php
-get_header(); ?>
 
-<h1><?php bloginfo('name'); ?></h1>
+echo "hello world";
 
-<?php
-get_footer();?>
+?>
