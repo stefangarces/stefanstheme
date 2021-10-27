@@ -5,6 +5,7 @@ $imageArray = get_field('page_image');
 $imageKramerica = $imageArray['sizes']['large'];
 $title = get_field('page_title');
 $description = get_field('page_description');
+$link = get_field('page_link');
 ?>
 
 <section class="red-bg" id="hero">
@@ -20,7 +21,8 @@ $description = get_field('page_description');
         <?php echo $description; ?>
         <h1 class="display-1"></h1>
        <button type="button" class="btn btn-outline-light">
-       <a style="text-decoration: none; color: white"href=""> Hello World
+       <a style="text-decoration: none; color: white"href="<?php echo $link['url']; ?>">
+            <?php echo $link['title']; ?>
         </a>
         </button>
       </div>
