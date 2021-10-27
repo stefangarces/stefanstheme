@@ -2,7 +2,6 @@
 get_header();
 
 $title = get_field('page_title');
-
 ?>
 
 <section class="red-bg" id="hero">
@@ -14,6 +13,7 @@ $title = get_field('page_title');
       </div>
       <div class="col-lg-6 text-light d-flex flex-column justify-content-center align-items-center">
         <h1 class="display-1"><?php echo $title; ?></h1>
+        <h1 class="display-1"></h1>
        <button type="button" class="btn btn-outline-light">
        <a style="text-decoration: none; color: white"href=""> Hello World
         </a>
