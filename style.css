@@ -3,9 +3,13 @@ Theme Name: Stefans Theme
 Text Domain: stefanstheme
 */
 
+body {
+    background-color: lightblue;
+  }
+/*
 .red-bg {
     background: linear-gradient(rgba(87, 28, 28, 0.9), rgba(0,0,0, .9));
-}
+}*/
 
 header {
     height: 10vh;
@@ -14,7 +18,18 @@ header {
 .generic {
     padding: 100px 0;
 }
-
+/*
 .footer {
     background: linear-gradient(rgba(87, 28, 28, 0.9), rgba(0,0,0, .9));
+}*/
+
+
+.bi {
+    color: white !important;
+    font-size: 70px;
+}
+
+.a {
+    color: white !important;
+    font-size: 70px;
 }
