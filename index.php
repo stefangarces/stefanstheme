@@ -1,7 +1,7 @@
 <?php
 get_header();
 
-echo "hello world";
+echo "Du är längst ner";
 
 get_footer();
 
